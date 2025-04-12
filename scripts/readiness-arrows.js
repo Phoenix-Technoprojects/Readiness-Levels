@@ -135,8 +135,8 @@ const data = [
 ];
 
 const margin = { top: 50, right: 50, bottom: 10, left: 50 },
-  width = 700 - margin.left - margin.right,
-  height = 460 - margin.top - margin.bottom;
+  width = 600 - margin.left - margin.right,
+  height = 400 - margin.top - margin.bottom;
 
 const svg = d3
   .select("#readiness-arrows")
